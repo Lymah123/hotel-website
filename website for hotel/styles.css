@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    padding: 20px;
+}
+
+h1, h2 {
+    color:white;
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+}
+
+
+/* CSS for the footer */
+footer {
+background-color: #333;
+color: white; /* Change text color to white */
+padding: 20px 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+/* Style for contact info and company info */
+.contact-info,
+.company-info {
+width: 50%;
+text-align: right;
+}
+
+
+.header-banner img {
+max-width: 100%; /* Make sure the image fits within the container */
+}
+
+.contact-info {
+text-align: left;
+}
+
+/* company info */
+.company-info h4 {
+font-size: 18px;
+margin-top: 0;
+}
+
+.company-info p {
+font-size: 14px;
+margin-top: 10px;
+}
+
+/* Style for the social media icons */
+.social-media {
+list-style: none;
+padding: 0;
+margin: 0; /* Remove margin to center */
+text-align: center;
+display: center;
+justify-content: center; /*Center horizontally */
+align-items: center; 
+}
+
+.social-media li {
+display: inline-block;
+margin: 0 10px;
+}
+
+.social-media a {
+text-decoration: none;
+color: white;
+font-size: 24px;
+}
+  
+    .header-banner {
+background-color: #333; 
+text-align: center; 
+padding: 20px 0;
+}
+
+.header-banner img {
+max-width: 100%; /* image inside container */
+}
+
+/* CSS Style for the testimonial section */
+.testimonial-section {
+background-color:#f5f5f5;
+padding: 20px;
+text-align: center;
+}
+.testimonial {
+background-color:black;
+padding: 20px;
+margin: 20px auto;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+max-width: 600px;
+color: white;
+}
+
+/* Customize font, text color, and other */
+.testimonial h2 {
+color: black;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+font-size: 18px;
+color: #555;
+margin-bottom: 10px;
+}
+
+.testimonial cite {
+        font-style: italic;
+        color: #777;
+    }
+
+/* Style for the navigation menu */
+.navbar {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Style for the "Imperial Hotel" text */
+.hotel-header {
+    background-color: black; 
+    text-align: center;
+    padding: 20px 0; 
+}
+
+.hotel-header h1 {
+    color: white;
+    font-size: 40px; 
+    font-family: 'Arial', sans-serif;
+}
+
+.hotel-header p {
+    color: white;
+    font-size: 18px; 
+}
+
+/* Logo styling */
+.logo {
+    float: left; 
+    padding: 10px; 
+}
+
+/* Navigation Bar styling */
+.navbar {
+    float: right; 
+    margin: 20px; 
+}
+
+
+/* Custom CSS for the logo and navigation bar */
+.navbar {
+    text-align: center;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    width: 0px;
+    height: auto;
+    margin-right: 20px; 
+  }
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar li {
+    margin: 0 15px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+
+/* Style for the footer section */
+footer {
+    background-color: #000000;
+    color: #fff; 
+    padding: 20px 0; 
+}
+
+.container {
+    text-align: center;
+}
+
+/* Style for the "brand" */
+.brand {
+    font-size: 24px;
+}
+
+.about {
+    font-size: 14px; 
+}
+
+/* Style for the footer links */
+.heading {
+    font-size: 18px; 
+}
+
+ul.p-list, ul.l-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.p-list li, ul.l-list li {
+    margin-bottom: 10px;
+}
+
+/* Style for the contact information */
+.contact {
+    font-size: 14px;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* Style for the copyright text */
+.copy {
+    text-align: center;
+    font-size: 14px; 
+}
+
+/* Style for the company info */
+.company-info {
+    text-align: right;
+    padding: 0 20px; 
+    flex: 1; /
+}
+
+.company-info h4 {
+    font-size: 18px;
+    margin-top: 0; 
+}
+
+.company-info p {
+    font-size: 14px;
+    margin-top: 10px;
+}

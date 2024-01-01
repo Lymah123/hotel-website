@@ -1,2 +1,2 @@
 # hotel-website
-A well built website for modern hotel.
+A well-built website for modern hotels.
